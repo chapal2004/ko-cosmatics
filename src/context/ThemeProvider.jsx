@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { useState, useEffect, } from "react"
+import { useState, useEffect, } from "react";
 import { createContext, MyContext } from "./ThemeContext";
 
 
