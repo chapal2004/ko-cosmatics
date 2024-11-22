@@ -8,16 +8,53 @@
 body{font-family: "Roboto", serif;}
 .text-y{color: #f7be27 !important;}
 
-
+  /* Banner slider */
 .banner-slider{height: 60vh;} 
 .banner-slider .item{height: 80vh; background-size: cover !important; overflow: hidden;}
 
 .banner-slider .item .info.mr-auto{position: relative; left: -100%; opacity: 0; }
 .banner-slider .item .info.ml-auto{position: relative; right: -100%; opacity: 0;}
 
-/* 
-.banner-slider .item h2{font-family: "Noto Serif", serif; font-size: 100px; font-weight: 800;}
-.banner-slider .item h3{font-family: "Noto Serif", serif; font-size: 40px; font-weight: 800;} */
+
+.banner-slider .item h2{font-family: "Noto Serif", serif; font-weight: 800;}
+.banner-slider .item h3{font-family: "Noto Serif", serif; font-weight: 800;}
 
 .banner-slider .swiper-slide-active .info.mr-auto{left: 0px; opacity: 1;}
 .banner-slider .swiper-slide-active .info.ml-auto{right: 0px; opacity: 1;}
+
+
+
+/* Banner Logo */
+header.scroll{background: rgb(208, 236, 255); padding: 10px 0px !important;}
+header .logo{width: 100px;}
+header .logo img{width: 100%; height: auto !important;}
+
+header nav ul li a{color: white; font-weight: 500; text-transform: uppercase; font-size: 20px;}
+header nav ul li a:hover{text-decoration: none; color: #f7be27;} 
+
+header.scroll nav ul li a{color: #8b38cb !important;}
+header.scroll nav ul li a:hover{text-decoration: none; color: #f7be27 !important;} 
+
+
+
+header .navber {font-size: 25px; font-weight: 900;}
+header .navber svg{font-size: 30px;}
+
+/* .form-control{width: 20%;} */
+header .cartTab svg{font-size: 35px; color:#5c9fe7; font-weight: 800;}
+header.scroll .cartTab svg{font-size: 35px; color:#8b38cb; font-weight: 800;}
+
+header .cartTab span{position: absolute; top: -10px; right: -10px; z-index: 100; width: 20px; height: 20px; background: #f7be27; color: white;}
+
+/* Button */
+
+.btn-border{border: .8px solid rgba(0,0,0,0.3); color: rgba(0,0,0,0.8);
+            padding: 5px 16px !important; }
+header .btn-border{color: #5c9fe7 !important; border: 1px solid white !important; font-weight: 700; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);}
+
+.filterProducts .list-inline li{margin: 0px 45px !important;}
+.filterProducts .list-inline li img{opacity: 0.4;}
+.filterProducts .list-inline li h4{color: #8b38cb;}
+
+.productsList .product-item-v1{ width: 22% !important; border: 2px solid rgba(0,0,0,0.3);}
+.product-item-v1 .imgWrapper img{width: 100% !important; height: auto !important; }
