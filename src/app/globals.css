@@ -27,6 +27,7 @@ body{font-family: "Roboto", serif;}
 /* Banner Logo */
 header.scroll{background: rgb(208, 236, 255); padding: 10px 0px !important;}
 header .logo{width: 100px;}
+
 header .logo img{width: 100%; height: auto !important;}
 
 header nav ul li a{color: white; font-weight: 500; text-transform: uppercase; font-size: 20px;}
@@ -34,7 +35,6 @@ header nav ul li a:hover{text-decoration: none; color: #f7be27;}
 
 header.scroll nav ul li a{color: #8b38cb !important;}
 header.scroll nav ul li a:hover{text-decoration: none; color: #f7be27 !important;} 
-
 
 
 header .navber {font-size: 25px; font-weight: 900;}
@@ -45,6 +45,7 @@ header .cartTab svg{font-size: 35px; color:#5c9fe7; font-weight: 800;}
 header.scroll .cartTab svg{font-size: 35px; color:#8b38cb; font-weight: 800;}
 
 header .cartTab span{position: absolute; top: -10px; right: -10px; z-index: 100; width: 20px; height: 20px; background: #f7be27; color: white;}
+
 
 /* Button */
 
