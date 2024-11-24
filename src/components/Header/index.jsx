@@ -27,7 +27,7 @@ window.addEventListener("scroll", () => {
   return (
  
     <header className='w-[100%] fixed top-0 left-0 z-[100] py-4 duration-300' ref={headerRef}>
-     <div className="container flex items-center justify-between">
+     <div className="flex items-center justify-between">
         <div className="logo w-[25%] ml-32">
            <Link href="/"><Image src={'/logo2.png'} width={'100'} height={'400'} alt='logo' /></Link>
          
@@ -35,6 +35,7 @@ window.addEventListener("scroll", () => {
 
         <div className='ml-auto flex items-center justify-end gap-4 w-[75%]'>
           <nav>
+            
             <ul className='flex items-center gap-6 mb-0'>
               <li><Link href='/'>Home</Link></li>
                 <li><Link href='/'>Face</Link></li>
@@ -52,7 +53,7 @@ window.addEventListener("scroll", () => {
           <Link href="/cart" className='relative cartTab ml-3'><PiBagSimpleDuotone/>
           <span className='flex items-center justify-center rounded-full'>0</span></Link>
 
-          <Button className='btn-border rounded-2xl ml-3 '>Sign in </Button>
+          <Button className='btn-border rounded-2xl ml-3 mr-12'>Sign in </Button>
         </div>
 
      </div>
